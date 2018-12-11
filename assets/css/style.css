@@ -216,3 +216,33 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+  body {
+    
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #main-container {
+    padding-top:0px;
+  }
+
+  #masthead {
+    position:static;
+  }
+
+  #logo {
+    width:100%;
+  }
+  nav {
+    text-align: center;
+    width:100%;
+  }
+}
